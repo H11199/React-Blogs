@@ -1,0 +1,70 @@
+#navbar-pad {
+  padding-left: 80px !important;
+}
+
+#header-main {
+  margin-bottom: 65px;
+}
+h1 {
+  font-size: 3rem;
+}
+
+.card {
+  background: #ff416c;
+  background: -webkit-linear-gradient(to right, #ff4b2b, #ff416c);
+  background: linear-gradient(to right, #ff4b2b, #ff416c);
+  width: auto;
+  height: auto;
+  color: #fff;
+}
+.card-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title {
+  font-size: x-large;
+  letter-spacing: 2px;
+}
+.card-subtitle {
+  font-size: large;
+  letter-spacing: 0.8px;
+}
+.card-text {
+  line-height: 2;
+  letter-spacing: 0.8px;
+}
+.mrg-bottom {
+  margin-top: 20px;
+}
+.btn-client {
+  border-radius: 20px;
+  border: 1px solid #ff4b2b;
+  background-color: #ff4b2b;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-in;
+  cursor: pointer;
+}
+.btn-client:active {
+  transform: scale(0.95);
+  color: #fff;
+}
+
+.btn-client:focus {
+  outline: none;
+}
+.btn-client:hover {
+  color: #000;
+}
+
+.ghost {
+  background-color: transparent;
+  border-color: #ffffff;
+}
+nav {
+  background-color: #e3f2fd;
+  font-size: 2.5rem;
+}
